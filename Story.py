@@ -11,7 +11,9 @@ def CreateCharacter():
         print("Do you want to be an Archer ? (A)")
         hero = input().upper()
 
-    character = Character(hero)
+    print("Choose the name of your hero:")
+    myname = str(input())
+    character = Character(hero, name=myname)
     character.set_attributes()
     character.assign_inventory()
     return character
