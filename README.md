@@ -28,8 +28,9 @@ To play Hero's Journey, follow these steps:
 
 1. Clone the repository or download the game files from [link].
 2. Ensure you have Python [version] or higher installed on your system.
-3. Open a terminal or command prompt and navigate to the game's directory.
-4. Run the command `python main.py` to start the game.
+3. Ensure you have the colorama library installed. (type `pip install colorama` in a command prompt if not)
+4. Open a terminal or command prompt and navigate to the game's directory.
+5. Run the command `python main.py` to start the game.
 
 ## Contribution
 
